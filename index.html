@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Om Raj Singh | AI Engineer Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Om Raj Singh, an AI and machine learning engineer focused on computer vision, adversarial ML, and LLM tool-calling agents."
+    >
+    <meta name="theme-color" content="#f7f3ec">
+    <meta property="og:title" content="Om Raj Singh | AI Engineer Portfolio">
+    <meta
+      property="og:description"
+      content="Projects, skills, resume, and contact information for AI Engineer Om Raj Singh."
+    >
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Om Raj Singh home">
+        <span class="brand-mark">ORS</span>
+        <span class="brand-text">Om Raj Singh</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-resume" href="Resume_June_2026%20(Copy).pdf" download>Resume</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell">
+        <div class="hero-copy">
+          <p class="eyebrow">AI Engineer / Machine Learning Engineer / Computer Vision Engineer</p>
+          <h1>Building applied AI systems from research ideas to working experiments.</h1>
+          <p class="hero-text">
+            M.Tech student in Data Science and Artificial Intelligence with hands-on experience in
+            deep learning, computer vision, adversarial machine learning, and LLM-based tool-calling
+            agents.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button primary" href="#projects">View Projects</a>
+            <a class="button secondary" href="Resume_June_2026%20(Copy).pdf" download>Download Resume</a>
+          </div>
+          <dl class="hero-facts" aria-label="Profile facts">
+            <div>
+              <dt>Focus</dt>
+              <dd>Computer Vision</dd>
+            </div>
+            <div>
+              <dt>Tools</dt>
+              <dd>PyTorch, OpenCV, LLM Agents</dd>
+            </div>
+            <div>
+              <dt>Location</dt>
+              <dd>India</dd>
+            </div>
+          </dl>
+        </div>
+        <aside class="profile-panel" aria-label="Profile summary">
+          <div class="avatar" aria-label="Avatar initials">ORS</div>
+          <div class="profile-panel-copy">
+            <p class="panel-title">Om Raj Singh</p>
+            <p>
+              Applied AI engineer focused on reproducible experimentation, model evaluation, and
+              practical GenAI systems.
+            </p>
+          </div>
+        </aside>
+      </section>
+
+      <section class="about section-shell" aria-labelledby="about-title">
+        <div class="section-heading">
+          <p class="eyebrow">Profile</p>
+          <h2 id="about-title">About</h2>
+        </div>
+        <p>
+          Om Raj Singh is an M.Tech student specializing in Data Science and Artificial Intelligence.
+          His work focuses on applied AI engineering, computer vision, adversarial machine learning,
+          and LLM-based agent systems. He has experience building PyTorch-based machine learning
+          pipelines, evaluating image classification models under adversarial settings, implementing
+          research-oriented computer vision systems, and developing multi-turn LLM agents with
+          external tool-calling capabilities.
+        </p>
+      </section>
+
+      <section class="projects section-shell" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="eyebrow">Selected work</p>
+          <h2 id="projects-title">Featured Projects</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-visual adversarial">MG</div>
+            <div class="project-body">
+              <p class="project-type">Adversarial ML</p>
+              <h3>MiniGaker: Adversarial Image Generation and Evaluation Framework</h3>
+              <p>
+                PyTorch framework for generating adversarial samples, evaluating pretrained image
+                classifiers, and saving experiment artifacts for reproducible robustness analysis.
+              </p>
+              <ul>
+                <li>Supports targeted and untargeted adversarial evaluation.</li>
+                <li>Tests ImageNet-trained ResNet50, ResNet152, and DenseNet121 models.</li>
+                <li>Tracks ASR, clean accuracy, adversarial accuracy, metadata, logs, and outputs.</li>
+              </ul>
+              <div class="tags" aria-label="Tech stack">
+                <span>Python</span>
+                <span>PyTorch</span>
+                <span>TorchVision</span>
+                <span>NumPy</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/dev-OmRaj/MiniGaker" target="_blank" rel="noreferrer">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual semantic">SAE</div>
+            <div class="project-body">
+              <p class="project-type">Research Analysis</p>
+              <h3>SAE: Semantic Adversarial Example Attack Analysis</h3>
+              <p>
+                Research-oriented analysis of Semantic Adversarial Example attacks, including
+                CLIP-guided image-text signals, attack modules, and evaluation behavior.
+              </p>
+              <ul>
+                <li>Studies target-class adversarial perturbation generation.</li>
+                <li>Examines SAEAttack, filtering, augmentation, feature extraction, and optimization.</li>
+                <li>Evaluates targeted ASR, untargeted ASR, top-1 accuracy, and top-5 accuracy.</li>
+              </ul>
+              <div class="tags" aria-label="Tech stack">
+                <span>Python</span>
+                <span>PyTorch</span>
+                <span>CLIP</span>
+                <span>OpenCV</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual agent">LLM</div>
+            <div class="project-body">
+              <p class="project-type">GenAI Engineering</p>
+              <h3>LLM Tool-Calling Agent</h3>
+              <p>
+                Multi-turn AI assistant built with the Google GenAI SDK, external tools, API calls,
+                response parsing, and context-aware conversation flow.
+              </p>
+              <ul>
+                <li>Defines structured tool descriptions, arguments, return formats, and parsing.</li>
+                <li>Integrates REST APIs with requests, JSON handling, and environment-based keys.</li>
+                <li>Handles quota errors, failed requests, missing keys, and invalid responses.</li>
+              </ul>
+              <div class="tags" aria-label="Tech stack">
+                <span>Python</span>
+                <span>Google GenAI SDK</span>
+                <span>REST APIs</span>
+                <span>JSON</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual retina">RSM</div>
+            <div class="project-body">
+              <p class="project-type">Computer Vision</p>
+              <h3>Retina-SEM: Unsupervised Retinal Vessel Segmentation</h3>
+              <p>
+                Unsupervised retinal vessel segmentation using structural entropy minimization over
+                graph-based image representations and multi-scale image processing.
+              </p>
+              <ul>
+                <li>Segments vessel structures without manual pixel-level labels during the algorithmic process.</li>
+                <li>Uses graph-based representations and multi-scale vessel-like features.</li>
+                <li>Evaluates Dice, clDice, precision, recall, and PR-AUC with visual analysis.</li>
+              </ul>
+              <div class="tags" aria-label="Tech stack">
+                <span>Python</span>
+                <span>OpenCV</span>
+                <span>scikit-learn</span>
+                <span>Matplotlib</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/dev-OmRaj/Retina_SEM" target="_blank" rel="noreferrer">GitHub</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="skills section-shell" id="skills" aria-labelledby="skills-title">
+        <div class="section-heading">
+          <p class="eyebrow">Toolbox</p>
+          <h2 id="skills-title">Skills</h2>
+        </div>
+        <div class="skill-grid">
+          <section class="skill-group" aria-labelledby="frontend-title">
+            <h3 id="frontend-title">Frontend</h3>
+            <p>HTML, CSS, JavaScript, React</p>
+          </section>
+          <section class="skill-group" aria-labelledby="backend-title">
+            <h3 id="backend-title">Backend</h3>
+            <p>Python, FastAPI, REST APIs, API integration, JSON handling</p>
+          </section>
+          <section class="skill-group" aria-labelledby="data-title">
+            <h3 id="data-title">AI / Data</h3>
+            <p>
+              PyTorch, TorchVision, scikit-learn, NumPy, Pandas, OpenCV, CNNs, Vision Transformers,
+              Transformers, Hugging Face, RAG, embeddings
+            </p>
+          </section>
+          <section class="skill-group" aria-labelledby="tools-title">
+            <h3 id="tools-title">Tools</h3>
+            <p>Git, GitHub, Linux, VS Code, Jupyter Notebook, Docker, python-dotenv, tqdm</p>
+          </section>
+        </div>
+      </section>
+
+      <section class="education section-shell" id="education" aria-labelledby="education-title">
+        <div class="section-heading">
+          <p class="eyebrow">Academics</p>
+          <h2 id="education-title">Education</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <p class="timeline-date">2025 - 2027</p>
+            <div>
+              <h3>Indian Institute of Technology Bhilai</h3>
+              <p class="timeline-role">M.Tech in Data Science and Artificial Intelligence</p>
+              <p>
+                Current postgraduate program focused on machine learning, deep learning,
+                artificial intelligence, data science, and related computational methods.
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <p class="timeline-date">2021 - 2025</p>
+            <div>
+              <h3>Lakshmi Narain College of Technology Bhopal</h3>
+              <p class="timeline-role">Integrated M.Sc. in Mathematics and Computing</p>
+              <p>
+                Foundations in mathematics, computing, programming, probability, statistics,
+                optimization, and algorithmic problem solving.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact section-shell" id="contact" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">Let’s connect</h2>
+          <p>
+            Open to AI engineering, machine learning engineering, and computer vision engineering
+            opportunities.
+          </p>
+        </div>
+        <div class="contact-actions" aria-label="Contact links">
+          <a class="contact-link" href="mailto:omrajsingh162003@gmail.com">
+            <span>Email</span>
+            <strong>omrajsingh162003@gmail.com</strong>
+          </a>
+          <a class="contact-link" href="tel:+919424898473">
+            <span>Phone</span>
+            <strong>+91 9424898473</strong>
+          </a>
+          <a class="contact-link" href="https://github.com/dev-OmRaj" target="_blank" rel="noreferrer">
+            <span>GitHub</span>
+            <strong>dev-OmRaj</strong>
+          </a>
+          <a class="contact-link" href="https://www.linkedin.com/in/dev-om-raj-singh" target="_blank" rel="noreferrer">
+            <span>LinkedIn</span>
+            <strong>dev-om-raj-singh</strong>
+          </a>
+          <a class="contact-link" href="https://codolio.com/profile/cunnning_blade_" target="_blank" rel="noreferrer">
+            <span>Coding Profile</span>
+            <strong>cunnning_blade_</strong>
+          </a>
+          <a class="contact-link" href="Resume_June_2026%20(Copy).pdf" download>
+            <span>Resume</span>
+            <strong>Download PDF</strong>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Om Raj Singh. Built for fast, focused hiring conversations.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
